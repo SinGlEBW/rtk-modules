@@ -1,0 +1,46 @@
+{
+  "name": "rtk-modules",
+  "private": false,
+  "version": "1.0.1",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "module": "./dist/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "directory": "dist"
+  },
+  "peerDependencies": {
+    "@reduxjs/toolkit": "^1.9.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SinGlEBW/rtk-modules.git"
+  },
+  "keywords": [
+    "rtk-modules",
+    "redux-modules"
+  ],
+  "author": "SinGlEBW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SinGlEBW/rtk-modules/issues"
+  },
+  "homepage": "https://github.com/SinGlEBW/rtk-modules#readme",
+  "description": "",
+  "dependencies": {
+    "glob": "^10.3.10",
+    "vite-plugin-dts": "^3.7.3"
+  }
+}
